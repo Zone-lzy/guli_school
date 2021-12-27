@@ -1,0 +1,162 @@
+2021-12-13 16:53:59.066 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterController': Unsatisfied dependency expressed through field 'eduChapterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterMapper' defined in file [D:\program_workspace\guli_parent\service\service_edu\target\classes\com\lzy\eduservice\mapper\EduChapterMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\program_workspace\guli_parent\service\service_edu\target\classes\com\lzy\eduservice\mapper\xml\EduCourseMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\program_workspace\guli_parent\service\service_edu\target\classes\com\lzy\eduservice\mapper\xml\EduCourseMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.achang.eduservice.entity.vo.CoursePublishVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.achang.eduservice.entity.vo.CoursePublishVo
+2021-12-13 16:54:18.781 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterController': Unsatisfied dependency expressed through field 'eduChapterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterMapper' defined in file [D:\program_workspace\guli_parent\service\service_edu\target\classes\com\lzy\eduservice\mapper\EduChapterMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\program_workspace\guli_parent\service\service_edu\target\classes\com\lzy\eduservice\mapper\xml\EduCourseMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\program_workspace\guli_parent\service\service_edu\target\classes\com\lzy\eduservice\mapper\xml\EduCourseMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.achang.eduservice.entity.vo.CoursePublishVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.achang.eduservice.entity.vo.CoursePublishVo
+2021-12-16 15:23:27.899 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 15:23:27.947 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 15:25:54.770 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 15:25:54.807 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 16:11:43.515 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 16:11:43.547 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 17:14:01.326 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 17:14:01.354 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 17:23:18.797 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-16 17:23:18.800 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-18 14:50:09.031 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-18 14:50:09.080 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-18 18:35:03.944 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-18 18:35:04.038 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-18 18:51:51.412 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-18 18:51:51.415 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 10:17:49.857 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 10:17:49.873 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 11:25:18.058 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 11:25:18.071 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 14:51:35.161 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 14:51:35.218 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 14:52:55.736 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 14:52:55.739 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 14:54:59.635 [lettuce-nioEventLoop-4-2] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:55:05.910 [lettuce-nioEventLoop-4-5] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:55:12.315 [lettuce-nioEventLoop-4-8] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:55:19.401 [lettuce-nioEventLoop-4-3] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:55:26.620 [lettuce-nioEventLoop-4-5] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:55:32.835 [lettuce-nioEventLoop-4-6] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:55:43.106 [lettuce-nioEventLoop-4-7] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:56:01.628 [lettuce-nioEventLoop-4-8] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:56:33.732 [lettuce-nioEventLoop-4-1] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:57:05.797 [lettuce-nioEventLoop-4-2] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:57:37.911 [lettuce-nioEventLoop-4-3] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:58:10.025 [lettuce-nioEventLoop-4-4] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:58:42.129 [lettuce-nioEventLoop-4-5] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:59:14.214 [lettuce-nioEventLoop-4-6] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 14:59:46.320 [lettuce-nioEventLoop-4-7] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 15:00:18.444 [lettuce-nioEventLoop-4-8] WARN 
+                io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2021-12-21 16:33:51.366 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 16:33:51.406 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 17:23:10.906 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 17:23:10.934 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 20:29:33.889 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 20:29:33.979 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 22:50:07.044 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-21 22:50:07.109 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-22 00:03:20.188 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-22 00:03:20.219 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-22 00:42:52.412 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-22 00:42:52.437 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-22 10:26:44.296 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-22 10:26:44.314 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:30:23.161 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:30:23.161 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:46:54.800 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:46:54.803 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:50:06.144 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:50:06.151 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:51:39.799 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s632ms634µs300ns).
+2021-12-23 14:54:30.166 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 14:54:30.169 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 15:01:27.141 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 15:01:27.146 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 15:30:50.864 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-23 15:30:50.879 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-24 00:00:32.776 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-24 00:00:32.845 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-24 23:13:54.758 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-24 23:13:54.808 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-25 14:30:03.508 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-25 14:30:03.541 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-25 20:12:43.466 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-25 20:12:43.518 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-26 18:17:19.692 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-26 18:17:19.738 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-27 14:12:38.948 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-12-27 14:12:38.968 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
